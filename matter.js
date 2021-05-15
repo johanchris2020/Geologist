@@ -100,7 +100,7 @@ var Axes = _dereq_('../geometry/Axes');
                 category: 0x0001,
                 mask: 0xFFFFFFFF,
                 group: 0
-            },
+            }, 
             slop: 0.05,
             timeScale: 1,
             render: {

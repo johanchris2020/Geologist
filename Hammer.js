@@ -20,7 +20,7 @@ class Hammer {
     translate(pos.x, pos.y);
     rotate(angle);
     strokeWeight(3);
-    stroke('white')
+    stroke('whiste')
     fill('orange')
     rectMode(CENTER)
     rect(0, 0, this.width, this.height);
