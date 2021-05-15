@@ -12,10 +12,9 @@ class Iron{
 
     }
     display(){
-        var pos=this.body.position;
         var angle=this.body.angle;
         push();
-        translate(pos.x,pos.y);
+        translate(this.body.position.x,this.body.position.y);
         rotate(angle);
         rectMode(CENTER);
         fill("red");
